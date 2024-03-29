@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 10vh;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: orange;
+}
+
+main {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    margin-top: 25px;
+}
+
+.fileira-1 {
+    width: 20vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.fileira-1 img {
+    width: 300px;
+}
+
+.fileira-2 {
+    width: 20vw;
+    height: 100vh;
+
+    background-color: blue;
+}
+
+.fileira-3 {
+    width: 20vw;
+    height: 100vh;
+
+    background-color: red;
+}
+
+.fileira-4 {
+    width: 20vw;
+    height: 100vh;
+
+    background-color: green;
+}
+

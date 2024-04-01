@@ -24,7 +24,7 @@ main {
     margin-top: 25px;
 }
 
-.fileira-1 {
+.row-1 {
     width: 20vw;
     height: 80vh;
 
@@ -33,11 +33,11 @@ main {
     gap: 15px;
 }
 
-.fileira-1 img {
+.row-1 img {
     width: 280px;
 }
 
-.fileira-2 {
+.row-2 {
     width: 20vw;
     height: 100vh;
 
@@ -46,18 +46,18 @@ main {
     gap: 15px;
 }
 
-.fileira-2 img {
+.row-2 img {
     width: 300px;
 }
 
-.fileira-3 {
+.row-3 {
     width: 20vw;
     height: 100vh;
 
     background-color: red;
 }
 
-.fileira-4 {
+.row-4 {
     width: 20vw;
     height: 100vh;
 

@@ -53,8 +53,10 @@ main {
 .row-3 {
     width: 20vw;
     height: 100vh;
+}
 
-    background-color: red;
+.row-3 img {
+    width: 320px;
 }
 
 .row-4 {

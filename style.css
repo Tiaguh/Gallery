@@ -43,6 +43,28 @@ main {
     padding-bottom: 50px;
 }
 
+.image-container {
+    position: relative;
+}
+
+.description {
+    width: 100%;
+
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+
+    text-align: left;
+
+    padding-left: 15px;
+
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    color: #FFF;
+
+    transform: translate(-50%, -50%);
+}
+
 .row-1 {
     width: 20vw;
 
@@ -79,6 +101,6 @@ main {
     width: 20vw;
 }
 
-.row-4 img{
+.row-4 img {
     width: 280px;
 }

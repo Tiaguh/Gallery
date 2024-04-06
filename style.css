@@ -91,6 +91,10 @@ main {
 
 .row-3 {
     width: 20vw;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
 .row-3 img {
@@ -99,6 +103,10 @@ main {
 
 .row-4 {
     width: 20vw;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
 .row-4 img {

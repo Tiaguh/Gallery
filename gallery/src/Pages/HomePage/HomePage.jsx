@@ -4,16 +4,14 @@ import "./HomePage.css";
 import Header from '../../components/Header/Header';
 import Card from '../../components/Card/Card';
 
-import Img from "../../Assets/Starry_Night.jpg"
-
-import { cardsData } from "../../cardsData.jsx";
+import cardsData from "../../cardsData.jsx";
 
 export default function HomePage() {
   return (
     <div>
       <Header />
 
-      <div>
+      <div className="card-container">
         {
           cardsData.map(card => (
             <Card

@@ -3,7 +3,7 @@
 }
 
 .card img {
-    width: 260px;
+    width: 270px;
 }
 
 .description {
@@ -15,7 +15,7 @@
 
     text-align: left;
 
-    padding-left: 15px;
+    padding-inline: 15px;
 
     font-size: 14px;
     font-family: Arial, sans-serif;

@@ -12,7 +12,8 @@ import Monalisa from './Assets/Mona_Lisa,_by_Leonardo_da_Vinci.jpg';
 import Maria_Maddalena_Penitente from './Assets/Maria_Maddalena_Penitente.jpg';
 import The_Sleeping_Gypsy from './Assets/The Sleeping Gypsy.jpg';
 import The_Basket_of_Apples from './Assets/The_Basket_of_Apples.jpg';
-import The_Swing from './Assets/The_Swing.jpg'
+import The_Swing from './Assets/The_Swing.jpg';
+import Girrasois from './Assets/Os Girassóis_Van_Gogh.jpg'
 
 
 const cardsData = [
@@ -120,6 +121,14 @@ const cardsData = [
     "painting_name": "The Swing",
     "artist_name": "Jean-Honoré Fragonard"
   },
+
+  {
+    "id": 15,
+    "painting": Girrasois,
+    "painting_name": "Doze Girassóis numa Jarra",
+    "artist_name": "Vincent van Gogh"
+    
+  }
 
 ];
 

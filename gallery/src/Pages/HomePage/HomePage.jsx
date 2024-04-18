@@ -8,7 +8,7 @@ import cardsData from "../../cardsData.jsx";
 
 export default function HomePage() {
   return (
-    <div>
+    <div className="home-page-container"> 
       <Header />
 
       <div className="card-container">

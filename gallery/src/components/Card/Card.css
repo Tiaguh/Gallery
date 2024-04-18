@@ -3,7 +3,7 @@
 }
 
 .card img {
-    width: 270px;
+    width: 260px;
 }
 
 .description {
@@ -17,9 +17,35 @@
 
     padding-inline: 15px;
 
-    font-size: 14px;
+    transform: translate(-50%, -50%);
+}
+
+.description h1 {
+    font-size: 28px;
     font-family: Arial, sans-serif;
     color: #FFF;
+}
 
-    transform: translate(-50%, -50%);
+.description p {
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    color: #FFF;
+}
+
+@media (max-width: 1350px) {
+    .card img {
+        width: 230px;
+    }
+
+    .description h1 {
+        font-size: 22px;
+        font-family: Arial, sans-serif;
+        color: #FFF;
+    }
+
+    .description p {
+        font-size: 12px;
+        font-family: Arial, sans-serif;
+        color: #FFF;
+    }
 }

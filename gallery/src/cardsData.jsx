@@ -6,7 +6,6 @@ import Girl_with_a_Pearl_Earring from './Assets/Girl_with_a_Pearl_Earring.jpg';
 import The_Great_Wave_off_Kanagawa from './Assets/The_Great_Wave_off_Kanagawa.jpg';
 import The_Night_Cafe from './Assets/The_Night_Cafe.jpg';
 import The_Arnolfini_portrait from './Assets/The_Arnolfini_portrait.jpg';
-import Guernica from './Assets/Guernica.jpg';
 import Van_Gogh_Self_Portrait from './Assets/Vincent_van_Gogh_-_Self-Portrait.jpg';
 import Monalisa from './Assets/Mona_Lisa,_by_Leonardo_da_Vinci.jpg';
 import Maria_Maddalena_Penitente from './Assets/Maria_Maddalena_Penitente.jpg';
@@ -14,7 +13,7 @@ import The_Sleeping_Gypsy from './Assets/The Sleeping Gypsy.jpg';
 import The_Basket_of_Apples from './Assets/The_Basket_of_Apples.jpg';
 import The_Swing from './Assets/The_Swing.jpg';
 import Girrasois from './Assets/Os Girassóis_Van_Gogh.jpg'
-
+import A_Criação_de_Adão from './Assets/A-Criação-de-Adão.png'
 
 const cardsData = [
   {
@@ -74,13 +73,6 @@ const cardsData = [
   },
 
   {
-    "id": 9,
-    "painting": Guernica,
-    "painting_name": "Guernica",
-    "artist_name": "Pablo Picasso"
-  },
-
-  {
     "id": 10,
     "painting": Van_Gogh_Self_Portrait,
     "painting_name": "Van Gogh Self Portrait",
@@ -123,11 +115,17 @@ const cardsData = [
   },
 
   {
-    "id": 15,
+    "id": 16,
     "painting": Girrasois,
     "painting_name": "Doze Girassóis numa Jarra",
     "artist_name": "Vincent van Gogh"
-    
+  },
+
+  {
+    "id": 17,
+    "painting": A_Criação_de_Adão,
+    "painting_name": "A Criação de Adão",
+    "artist_name": "Michelangelo"
   }
 
 ];

@@ -16,6 +16,7 @@ export default function HomePage() {
           cardsData.map(card => (
             <Card
               key={card.id}
+              id={card.id}
               painting={card.painting}
               painting_name={card.painting_name}
               artist_name={card.artist_name}

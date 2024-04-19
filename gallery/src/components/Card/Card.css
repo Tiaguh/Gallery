@@ -1,5 +1,13 @@
 .card {
     position: relative;
+
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
+.card:hover {
+    opacity: 0.9;
 }
 
 .card img {

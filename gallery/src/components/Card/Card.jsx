@@ -9,7 +9,10 @@ export default function Card(props) {
     <button
       key={props.id}
       className="card"
-      onClick={() => navigate(`/gallery/${props.id}`)}
+      onClick={() => {
+        navigate(`/gallery/${props.id}`)
+        
+      }}
     >
 
       <img src={props.painting} alt={props.painting_name} />

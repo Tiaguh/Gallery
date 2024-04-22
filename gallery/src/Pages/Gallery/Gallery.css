@@ -1,0 +1,42 @@
+.gallery-container {
+    width: 100vw;
+    height: 100vh;
+}
+
+.gallery {
+    width: 100vw;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.gallery-infos {
+    width: 60vw;
+    height: 90vh;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery-img {
+    width: 100%;
+}
+
+.gallery-img img {
+    width: 90%;
+}
+
+.gallery-info {
+    
+}
+
+.gallery-description {
+    width: 40vw;
+    height: 90vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

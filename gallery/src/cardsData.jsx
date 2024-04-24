@@ -20,21 +20,24 @@ const cardsData = [
     "id": 1,
     "painting": Starry_Night,
     "painting_name": "Starry Night",
-    "artist_name": "Van Gogh"
+    "artist_name": "Van Gogh",
+    "description": "A Noite Estrelada é uma pintura a óleo sobre tela dopintor pós-impressionista holandês Vincent van Gogh pintada em junho de 1889. Ela retrata a vista da janela voltada para o leste de seu quarto de asilo em Saint-Rémy -de-Provence, pouco antes do nascer do sol, com a adição de uma aldeia imaginária. Está na coleção permanente do Museu de Arte Moderna da cidade de Nova York desde 1941, adquirido através do legado de Lillie P. Bliss . Amplamente considerada a obra-prima de Van Gogh , A Noite Estrelada é uma das pinturas mais reconhecidas da arte ocidental."
   },
 
   {
     "id": 2,
     "painting": The_Storm_on_the_Lake_of_Galilee,
     "painting_name": "The Storm on the Sea of Galilee",
-    "artist_name": "Rembrandt"
+    "artist_name": "Rembrandt",
+    "description": "Cristo na Tempestade no Mar da Galiléia é uma pintura a óleo sobre tela de 1633 dopintor holandês da Idade de Ouro Rembrandt van Rijn . É classificada como uma pintura histórica e está entre as maiores e mais antigas obras de Rembrandt. Foi comprado por Bernard Berenson para Isabella Stewart Gardner em 1869 e foi exibido no Museu Isabella Stewart Gardner em Boston antes de seu roubo em 1990 ; continua faltando. A pintura retrata o acontecimento bíblico em que Jesus acalmou a tempestade no Mar da Galiléia , conforme descrito no quarto capítulo do Evangelho de Marcos . É a única paisagem marítima de Rembrandt ."
   },
 
   {
     "id": 3,
     "painting": Lady_with_an_Ermine,
     "painting_name": "Lady with an Ermine",
-    "artist_name": "Leonardo da Vinci"
+    "artist_name": "Leonardo da Vinci",
+    "description": "A Dama com Arminho é um retrato amplamente atribuído ao artista renascentista italiano Leonardo da Vinci . Datado de c.  1489–1491 , a obra é pintada a óleo sobre um painel de madeira de nogueira . Seu tema é Cecilia Gallerani , amante de Ludovico Sforza, duque de Milão ; Leonardo era pintor da corte Sforza em Milão na época de sua execução. É o segundo de apenas quatro retratos de mulheres pintados por Leonardo, sendo os outros Ginevra de' Benci , La Belle Ferronnière e a Mona Lisa."
   },
 
   {

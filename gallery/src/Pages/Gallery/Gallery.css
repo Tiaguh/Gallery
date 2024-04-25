@@ -5,35 +5,36 @@
 
 .gallery {
     width: 100vw;
+    height: 85vh;
 
     display: flex;
-    flex-direction: row;
 
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .gallery-infos {
-    width: 60vw;
-    height: 90vh;
+    width: 50%;
+    height: 100%;
 
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 
     padding-inline: 50px;
 }
 
+
 .gallery-img img {
-    width: 80%;
+    width: 100%;
 }
 
 .gallery-info {
-    width: 325px;
-    height: 200px;
+    width: 100%;
 
-    margin-top: -400px;
-    margin-left: -300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
     background-color: #FFF;
 }
@@ -47,13 +48,12 @@
 }
 
 .gallery-description {
-    width: 40vw;
-    height: 90vh;
+    width: 50%;
+    height: 100%;
 
     display: flex;
     align-items: center;
     justify-content: center;
 
-    padding-left: 25px;
-    padding-right: 50px;
+    padding-inline: 50px;
 }

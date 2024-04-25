@@ -33,7 +33,7 @@ export default function Gallery() {
             </div>
 
             <div className="gallery-description">
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quod praesentium laborum vitae ipsa rem architecto voluptate in numquam. Unde, dicta quas illo velit perspiciatis ipsum magni expedita quo consequatur!</p>
+              <p>{painting.description}</p>
             </div>
 
           </div>

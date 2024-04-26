@@ -11,7 +11,6 @@ export default function Card(props) {
       className="card"
       onClick={() => {
         navigate(`/gallery/${props.id}`)
-        
       }}
     >
 

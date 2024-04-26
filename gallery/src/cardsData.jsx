@@ -67,50 +67,57 @@ const cardsData = [
   {
     "id": 7,
     "painting": The_Night_Cafe,
-    "painting_name": "The Night Café",
-    "artist_name": "Van Gogh"
+    "painting_name": "O Café Noturno",
+    "artist_name": "Van Gogh",
+    "description": "The Night Café (francês: Le Café de nuit) é uma pintura a óleo criada pelo artista holandês Vincent van Gogh em setembro de 1888 em Arles. Seu título está inscrito no canto inferior direito, abaixo da assinatura. A pintura é propriedade da Universidade de Yale e atualmente está exposta na Galeria de Arte da Universidade de Yale em New Haven, Connecticut."
   },
 
   {
     "id": 8,
     "painting": The_Arnolfini_portrait,
-    "painting_name": "The Arnolfini portrait",
-    "artist_name": ""
+    "painting_name": "O Casal Arnolfini",
+    "artist_name": "Jan van Eyck",
+    "description": "O Casal Arnolfini é o mais famoso quadro do pintor flamengo Jan van Eyck, pintado em 1434. A obra exibe o então rico comerciante Giovanni Arnolfini e sua esposa Giovanna Cenami, que se estabeleceram e prosperaram na cidade de Bruges (hoje Bélgica), entre 1420 e 1472. Nos dias de hoje, os historiadores da arte discutem a imagem que o quadro representa exatamente; a tese dominante durante muito tempo, introduzida por Erwin Panofsky em um ensaio de 1934, assegura que a imagem corresponde ao matrimónio de ambos, celebrado em segredo e testemunhado pelo pintor. Contudo, muitas outras interpretações têm sido propostas acerca da obra, e o consenso atual é que a teoria de Panofsky é dificilmente sustentável. Especula-se sobre a presença efetiva do pintor no casamento dos Arnolfini, que explicaria a razão de o pintor neerlandês ter escrito no quadro, em latim, Johannes de Eyck fuit hic (Jan van Eyck esteve aqui)."
   },
 
   {
     "id": 10,
     "painting": Van_Gogh_Self_Portrait,
-    "painting_name": "Van Gogh Self Portrait",
-    "artist_name": "Vincent Van Gogh"
+    "painting_name": "Autorretrato de Van Gogh",
+    "artist_name": "Vincent Van Gogh",
+    "description": "O pintor pós-impressionista holandês Vincent van Gogh pintou um autorretrato em óleo sobre tela em setembro de 1889. A obra, que pode ter sido o último autorretrato de Van Gogh, foi pintada pouco antes de ele deixar Saint-Rémy-de-Provence, no sul. França. A pintura está agora no Musée d'Orsay em Paris."
   },
 
   {
     "id": 11,
     "painting": Monalisa,
     "painting_name": "Mona Lisa",
-    "artist_name": "Leonardo da Vinci"
+    "artist_name": "Leonardo da Vinci",
+    "description": "A Mona Lisa é um retrato de meio corpo do artista italiano Leonardo da Vinci. Considerada uma obra-prima arquetípica da Renascença italiana, foi descrita como a mais conhecida, a mais visitada, a mais escrita, a mais cantada,a obra de arte mais parodiada do mundo. mundo As qualidades inovadoras da pintura incluem a expressão enigmática do tema, monumentalidade da composição, a modelagem sutil das formas e o ilusionismo atmosférico."
   },
 
   {
     "id": 12,
     "painting": Maria_Maddalena_Penitente,
     "painting_name": "Maria Maddalena Penitente",
-    "artist_name": "Artemisia Gentileschi"
+    "artist_name": "Artemisia Gentileschi",
+    "description": "Madalena Penitente é uma pintura da artista italiana Artemisia Gentileschi. Está pendurado na Catedral de Sevilha. Provavelmente está na catedral desde o final do século XVII. O primeiro lar da pintura foi a coleção de Fernando Enriquez Afan de Ribera, de 1626 a 1637. Ela voltou ao assunto no final da década de 1620 em Maria Madalena como Melancolia."
   },
 
   {
     "id": 13,
     "painting": The_Sleeping_Gypsy,
-    "painting_name": "The Sleeping Gypsy",
-    "artist_name": "Henri Rousseau"
+    "painting_name": "A cigana adormecida",
+    "artist_name": "Henri Rousseau",
+    "description": "A Cigana Adormecida (francês: La Bohémienne endormie) é um óleo sobre tela de 1897 do artista francês Naïf Henri Rousseau (1844–1910). É uma representação fantástica de um leão meditando sobre uma mulher adormecida em uma noite de luar. É propriedade do Museu de Arte Moderna da cidade de Nova York, ao qual foi doado pela Sra. Simon Guggenheim em 1939."
   },
 
   {
     "id": 14,
     "painting": The_Basket_of_Apples,
-    "painting_name": "The Basket of Apples",
-    "artist_name": "Paul Cézanne"
+    "painting_name": "A cesta de maçãs",
+    "artist_name": "Paul Cézanne",
+    "description": "A Cesta de Maçãs (francês: Le panier de pommes) é uma pintura a óleo de natureza morta do artista francês Paul Cézanne, que ele criou c. 1893. A pintura rejeitou a representação naturalista em favor da distorção dos objetos para criar múltiplas perspectivas. Esta abordagem acabou por influenciar outros movimentos artísticos, incluindo o Fauvismo e o Cubismo. Pertence à Coleção Memorial Helen Birch Bartlett do Art Institute of Chicago."
   },
 
   {

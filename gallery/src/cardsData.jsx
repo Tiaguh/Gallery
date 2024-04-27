@@ -123,22 +123,25 @@ const cardsData = [
   {
     "id": 15,
     "painting": The_Swing,
-    "painting_name": "The Swing",
-    "artist_name": "Jean-Honoré Fragonard"
+    "painting_name": "O Balanço",
+    "artist_name": "Jean-Honoré Fragonard",
+    "description": "O Baloiço (em francês: L'Escarpolette; 1766), também conhecido por Os Acidentes Felizes do Baloiço (em francês: Les Hasards Heureux de l'Escarpolette; título original), é uma pintura do século XVIII a óleo sobre tela do pintor francês Jean-Honoré Fragonard. Encontra-se exposta no museu Coleção Wallace, em Londres. É considerada uma das obras-primas do rococó, e trata-se da pintura mais conhecida de Fragonard."
   },
 
   {
     "id": 16,
     "painting": Girrasois,
     "painting_name": "Doze Girassóis numa Jarra",
-    "artist_name": "Vincent van Gogh"
+    "artist_name": "Vincent van Gogh",
+    "description": "Os Doze girassóis numa jarra é uma pintura do pintor holandês Vincent van Gogh. Após a chegada do pintor ao sul da França, estabelecendo-se em Arles, Van Gogh passou a utilizar efeitos de cores e de luz com mais intensidade. Doze Girassóis numa Jarra pode ser considerado o culminar de todo este efeito em na obra do artista. Finalizado em agosto de 1888, o quadro está hoje exposto na Neue Pinakothek, em Munique. Atualmente, esta é uma das telas mais famosas do mundo. Tal sucesso e reconhecimento contrastam com a vida do seu autor, que sempre viveu à margem da sociedade. Ao longo de toda a trajetória de Van Gogh, o artista vendeu somente um quadro. Ele só foi reconhecido mundialmente depois de sua morte."
   },
 
   {
     "id": 17,
     "painting": A_Criação_de_Adão,
     "painting_name": "A Criação de Adão",
-    "artist_name": "Michelangelo"
+    "artist_name": "Michelangelo",
+    "description": "A Criação de Adão é um afresco de 280 cm x 570 cm, pintado por Michelangelo Buonarroti por volta de 1511, que fica no teto da Capela Sistina. A cena representa um episódio do Livro do Gênesis no qual Deus cria o primeiro homem a partir do pó da terra: Adão."
   }
 
 ];

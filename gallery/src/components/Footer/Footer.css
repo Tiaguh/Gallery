@@ -1,0 +1,20 @@
+.footer-container {
+    width: 100vw;
+    height: 15vh;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-inline: 25px;
+
+    border-top: 2px solid #F1F1F1;
+}
+
+.footer-infos h1 {
+    font-size: 25px;
+}
+
+.footer-infos h2 {
+    font-size: 20px;
+}

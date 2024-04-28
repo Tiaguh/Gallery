@@ -5,6 +5,7 @@ import { useParams } from 'react-router-dom';
 import Header from '../../components/Header/Header';
 
 import cardsData from '../../cardsData';
+import Footer from '../../components/Footer/Footer';
 
 export default function Gallery() {
   const { id } = useParams();
@@ -41,6 +42,9 @@ export default function Gallery() {
           <p>Pintura não encontrada.</p>
         )}
       </div>
+
+      <Footer />
+
     </div>
   )
 }

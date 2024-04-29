@@ -43,7 +43,11 @@ export default function Gallery() {
         )}
       </div>
 
-      <Footer />
+      <Footer
+        id={painting.id}
+        painting_name={painting.painting_name}
+        artist_name={painting.painting_name}
+      />
 
     </div>
   )

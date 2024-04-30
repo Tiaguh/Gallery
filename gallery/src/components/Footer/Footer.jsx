@@ -1,14 +1,16 @@
 import React from 'react';
 import './Footer.css';
 import { useNavigate } from 'react-router-dom';
+import { RxTrackNext, RxTrackPrevious } from "react-icons/rx";
 
 export default function Footer(props) {
     const { id, painting_name, artist_name } = props;
-
     const navigate = useNavigate();
 
     const handleNext = () => {
-        if (id >= 0) {
+        if (id >= 17) {
+            navigate(`/gallery/1`); 
+        } else {
             navigate(`/gallery/${id + 1}`);
         }
     };
@@ -17,7 +19,7 @@ export default function Footer(props) {
         if (id > 1) {
             navigate(`/gallery/${id - 1}`);
         } else {
-            navigate(`/gallery/1`);
+            navigate(`/gallery/1`); 
         }
     };
 
@@ -29,8 +31,13 @@ export default function Footer(props) {
             </div>
 
             <div>
-                <button onClick={handleNext}>Next</button>
-                <button onClick={handleBefore}>Before</button>
+                <button onClick={handleBefore}>
+                    <RxTrackPrevious color="#000" size={32} />
+                </button>
+
+                <button onClick={handleNext}>
+                    <RxTrackNext color="#000" size={32} />
+                </button>
             </div>
         </div>
     );

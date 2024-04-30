@@ -18,3 +18,12 @@
 .footer-infos h2 {
     font-size: 20px;
 }
+
+.footer-container button {
+    background-color: transparent;
+    border: none;
+
+    margin-inline: 2.5px;
+
+    cursor: pointer;
+}

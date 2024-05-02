@@ -40,9 +40,15 @@
     color: #FFF;
 }
 
-@media (max-width: 1350px) {
+@media (max-width: 1300px) {
     .card img {
-        width: 230px;
+        width: 220px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .card img {
+        width: 300px;
     }
 
     .description h1 {

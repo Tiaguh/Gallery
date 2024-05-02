@@ -31,6 +31,7 @@ export default function Gallery() {
                 <h1>{painting.painting_name}</h1>
                 <p>{painting.artist_name}</p>
               </div>
+
             </div>
 
             <div className="gallery-description">

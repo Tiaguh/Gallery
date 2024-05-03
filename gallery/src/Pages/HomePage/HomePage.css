@@ -1,16 +1,15 @@
 .home-page-container {
     width: 100vw;
+    height: auto;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    overflow-x: hidden;
 }
 
 .card-container {
-    width: 100%;
+    width: 90vw;
     height: 200vh;
 
     display: flex;
@@ -23,7 +22,6 @@
     gap: 5px;
 
     margin-top: 25px;
-
     margin-bottom: 25px;
 }
 
@@ -36,10 +34,10 @@
     }
 }
 
-@media (max-width: 760px) {
+@media (max-width: 768px) {
     .card-container {
         height: auto;
 
-        gap: 5px;
+        gap: 25px;
     }
 }

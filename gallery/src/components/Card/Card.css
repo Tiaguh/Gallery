@@ -63,3 +63,57 @@
         color: #FFF;
     }
 }
+
+@media (max-width: 768px) {
+    .card img {
+        width: 400px;
+    }
+
+    .description h1 {
+        font-size: 30px;
+        font-family: Arial, sans-serif;
+        color: #FFF;
+    }
+
+    .description p {
+        font-size: 18px;
+        font-family: Arial, sans-serif;
+        color: #FFF;
+    }
+}
+
+@media (max-width: 450px) {
+    .card img {
+        width: 350px;
+    }
+
+    .description h1 {
+        font-size: 28px;
+        font-family: Arial, sans-serif;
+        color: #FFF;
+    }
+
+    .description p {
+        font-size: 16px;
+        font-family: Arial, sans-serif;
+        color: #FFF;
+    }
+}
+
+@media (max-width: 390px) {
+    .card img {
+        width: 300px;
+    }
+
+    .description h1 {
+        font-size: 28px;
+        font-family: Arial, sans-serif;
+        color: #FFF;
+    }
+
+    .description p {
+        font-size: 16px;
+        font-family: Arial, sans-serif;
+        color: #FFF;
+    }
+}

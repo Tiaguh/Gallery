@@ -29,14 +29,20 @@
 }
 
 .description h1 {
-    font-size: 28px;
-    font-family: Arial, sans-serif;
+    font-size: 25px;
+
+    font-family: Libre Baskerville, serif;
+    font-weight: 700;
+
     color: #FFF;
 }
 
 .description p {
     font-size: 15px;
-    font-family: Arial, sans-serif;
+    
+    font-family: Libre Baskerville, serif;
+    font-weight: 700;
+    
     color: #FFF;
 }
 

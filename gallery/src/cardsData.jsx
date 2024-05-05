@@ -1,4 +1,4 @@
-import Starry_Night from './Assets/Starry_Night.jpg';
+import Starry_Night from './Assets/Starry_Night.png';
 import The_Storm_on_the_Lake_of_Galilee from './Assets/The_Storm_on_the_Lake_of_Galilee.jpg';
 import Lady_with_an_Ermine from './Assets/Lady_with_an_Ermine.jpg';
 import Le_Garçon_au_gilet_rouge from './Assets/Le_Garçon_au_gilet_rouge.jpg';

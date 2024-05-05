@@ -29,7 +29,7 @@ export default function Gallery() {
 
               <div className="gallery-info">
                 <h1>{painting.painting_name}</h1>
-                <p>{painting.artist_name}</p>
+                <h2>{painting.artist_name}</h2>
               </div>
 
             </div>

@@ -1,12 +1,13 @@
 .footer-container {
     width: 100vw;
-    height: 15vh;
+    min-height: 15vh;
+    max-height: auto;
 
     display: flex;
     justify-content: space-between;
     align-items: center;
 
-    padding-inline: 25px;
+    padding: 25px;
 
     border-top: 2px solid #F1F1F1;
 }

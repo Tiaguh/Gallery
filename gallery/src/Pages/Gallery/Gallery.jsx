@@ -27,6 +27,10 @@ export default function Gallery() {
                 <img src={painting.painting} alt={painting.painting_name} />
               </div>
 
+              <div className="gallery-img-container">
+                <img src={painting.painting} alt={painting.painting_name} />
+              </div>
+
               <div className="gallery-info">
                 <h1>{painting.painting_name}</h1>
                 <h2>{painting.artist_name}</h2>

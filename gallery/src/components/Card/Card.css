@@ -39,11 +39,17 @@
 
 .description p {
     font-size: 15px;
-    
+
     font-family: Libre Baskerville, serif;
     font-weight: 700;
-    
+
     color: #FFF;
+}
+
+@media (max-width: 1350px) {
+    .card img {
+        width: 230px;
+    }
 }
 
 @media (max-width: 1300px) {

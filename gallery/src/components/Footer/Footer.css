@@ -10,6 +10,11 @@
     padding: 25px;
 
     border-top: 2px solid #F1F1F1;
+
+    background-color: #FFF;
+
+    position: fixed;
+    bottom: 0;
 }
 
 .footer-infos h1 {

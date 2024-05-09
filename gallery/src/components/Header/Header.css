@@ -1,6 +1,6 @@
 header {
     width: 100vw;
-    height: 15vh;
+    height: 12vh;
 
     display: flex;
     justify-content: space-between;
@@ -9,6 +9,12 @@ header {
     padding-inline: 25px;
 
     border-bottom: 2px solid #F1F1F1;
+    background-color: #FFF;
+
+    position: fixed;
+    top: 0;
+
+    z-index: 1;
 }
 
 header button {

@@ -4,20 +4,28 @@ import { useNavigate } from 'react-router-dom';
 
 export default function Header() {
     const navigate = useNavigate();
-    const [buttonController, setButtonController] = useState(false)
+    const [buttonController, setButtonController] = useState(true)
 
     return (
         <header>
-            <h1 onClick={()=> navigate("/")} >galleria.</h1>
+            <h1 onClick={() => navigate("/")} >galleria.</h1>
 
             {
                 buttonController ? (
-                    <button onClick={() => setButtonController(true)}>START SLIDESHOW</button>
+                    <button onClick={() => {
+                        setButtonController(false)
+                        navigate("/gallery/1")
+                    }
+                    }>
+                        START SLIDESHOW
+                    </button>
+
                 ) : (
-                    <button onClick={() => setButtonController(false)}>STOP SLIDESHOW</button>
+                    <button onClick={() => setButtonController(true)}>
+                        STOP SLIDESHOW
+                    </button>
                 )
             }
-
         </header>
     )
 }
